@@ -13,7 +13,7 @@ Database users will focus on three different groups of people: Stakeholders (inv
 
 - **Complete coverage:** All asset classes (equities, bonds, ETFs, options), with reliable cross-referencing of identifiers (ticker, CUSIP, ISIN, FIGI)
 - **Deep, unbiased history:** Delisted securities retained, prices adjusted for splits and dividends
-Point-in-time views: Reproduce exactly what the database showed on any past date
+- **Point-in-time views:** Reproduce exactly what the database showed on any past date
 - **Auditability:** Source, timestamp, and correction history on every data point
 - **Flexibility:** Add new asset classes and attributes without a rebuild
 - **Right-sized freshness:** Real-time, delayed, or end-of-day depending on asset class and use case
@@ -40,3 +40,5 @@ Point-in-time views: Reproduce exactly what the database showed on any past date
 - **Reconciliation:** Comparing two data sets and flagging differences.
 - **Reference data accuracy:** One correct identifier and security record behind every transaction.
 - **Date-driven queries:** Trade date, settlement date, record date, and valuation date all matter and are different.
+
+## Analysis & Design
