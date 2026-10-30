@@ -44,11 +44,11 @@ Database users will focus on three different groups of people: Stakeholders (inv
 ## Analysis & Design
 
 **Core Goals**
-Single security master: One unique ID per instrument, across all asset classes
-Identifier cross-reference: Map ticker, CUSIP, ISIN, and FIGI, with change history
-Point-in-time accuracy: Never overwrite data, so any past state can be reconstructed
-Full history: Keep delisted securities and corporate-action-adjusted prices
-Auditability: Track source, timestamp, and author on every change
-Operational support: Link trades, positions, and prices to the security master
-Extensibility: Add new asset classes without altering existing tables
-Data integrity: Enforce constraints and validate data on the way in
+- Single security master: One unique ID per instrument, across all asset classes
+- Identifier cross-reference: Map ticker, CUSIP, ISIN, and FIGI, with change history
+- Point-in-time accuracy: Never overwrite data, so any past state can be reconstructed
+- Full history: Keep delisted securities and corporate-action-adjusted prices
+- Auditability: Track source, timestamp, and author on every change
+- Operational support: Link trades, positions, and prices to the security master
+- Extensibility: Add new asset classes without altering existing tables
+- Data integrity: Enforce constraints and validate data on the way in
